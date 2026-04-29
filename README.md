@@ -34,3 +34,17 @@ Built to practice containerization and understand how applications are deployed 
 * Add CI/CD pipeline using GitHub Actions
 * Deploy to AWS EC2
 * Push image to Docker Hub
+
+## 🐳 Docker Hub
+
+Pull the image:
+
+```bash
+docker pull moyo15/dockerized-flask-app:latest
+```
+
+Run the container:
+
+```bash
+docker run -p 8080:8080 moyo15/dockerized-flask-app:latest
+```
